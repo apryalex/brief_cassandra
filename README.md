@@ -35,6 +35,11 @@ Assurez-vous d'avoir les éléments suivants installés sur votre système :
 
    Cela va créer et exécuter des conteneurs Docker pour Cassandra, FastAPI et Streamlit.
 
+   
+IMPORTANT   IMPORTANT  IMPORTANT
+
+
+
    ```markdown
 Après avoir exécuté `docker-compose up`, vous devrez obtenir l'adresse IP du conteneur Cassandra `cassandra-node1` en utilisant la commande suivante :
 
@@ -42,7 +47,7 @@ Après avoir exécuté `docker-compose up`, vous devrez obtenir l'adresse IP du 
 docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' cassandra-node1
 ```
 
-IMPORTANT
+
 
 Assurez-vous de copier cette adresse IP dans le fichier `app.py` de votre serveur pour initialiser la connexion à Cassandra. Voici un extrait du fichier `app.py` côté serveur avec l'adresse IP mise à jour :
 
