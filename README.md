@@ -1,4 +1,4 @@
-Bien sûr, voici un exemple de fichier README complet pour votre projet Docker avec Cassandra, FastAPI, Streamlit et Docker Compose :
+Projet Docker avec Cassandra, FastAPI, Streamlit et Docker Compose :
 
 ```markdown
 # Projet Docker Cassandra, FastAPI, Streamlit
@@ -62,4 +62,4 @@ docker compose down
 Ce projet est fourni à titre d'exemple et peut être adapté à vos besoins spécifiques. Amusez-vous bien !
 ```
 
-N'oubliez pas de personnaliser ce README avec les informations spécifiques à votre projet, telles que le nom du dépôt GitHub, les ports, les détails sur les données stockées dans Cassandra, etc. Cela vous aidera à fournir des informations claires et utiles aux autres développeurs qui travaillent sur votre projet.
+
