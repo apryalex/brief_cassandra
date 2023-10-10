@@ -36,7 +36,7 @@ Assurez-vous d'avoir les éléments suivants installés sur votre système :
    Cela va créer et exécuter des conteneurs Docker pour Cassandra, FastAPI et Streamlit.
 
    
-IMPORTANT   IMPORTANT  IMPORTANT
+IMPORTANT   IMPORTANT  IMPORTANT IMPORTANT
 
 
 
