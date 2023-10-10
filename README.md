@@ -93,7 +93,7 @@ docker compose down
 Ce projet est fourni à titre d'exemple et peut être adapté à vos besoins spécifiques. Amusez-vous bien !
 ```
 
-Dans le keyspace "resto":
+# Dans le keyspace "resto":
 
 inspection
 restaurant
@@ -119,7 +119,8 @@ top_partitions
 transferred_ranges
 transferred_ranges_v2
 view_builds_in_progress
-Dans le keyspace "system_auth":
+
+# Dans le keyspace "system_auth":
 
 network_permissions
 role_members
