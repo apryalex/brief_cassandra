@@ -93,4 +93,97 @@ docker compose down
 Ce projet est fourni à titre d'exemple et peut être adapté à vos besoins spécifiques. Amusez-vous bien !
 ```
 
+Dans le keyspace "resto":
 
+inspection
+restaurant
+Dans le keyspace "system":
+
+available_ranges
+available_ranges_v2
+batches
+built_views
+compaction_history
+"IndexInfo"
+local
+paxos
+peers
+peers_v2
+prepared_statements
+repairs
+size_estimates
+sstable_activity
+sstable_activity_v2
+table_estimates
+top_partitions
+transferred_ranges
+transferred_ranges_v2
+view_builds_in_progress
+Dans le keyspace "system_auth":
+
+network_permissions
+role_members
+roles
+resource_role_permissons_index
+role_permissions
+Dans le keyspace "system_distributed":
+
+parent_repair_history
+partition_denylist
+repair_history
+view_build_status
+Dans le keyspace "system_schema":
+
+aggregates
+columns
+functions
+indexes
+keyspaces
+tables
+types
+triggers
+views
+Dans le keyspace "system_traces":
+
+events
+sessions
+Dans le keyspace "system_views":
+
+batch_metrics
+caches
+clients
+coordinator_read_latency
+coordinator_scan_latency
+coordinator_write_latency
+cql_metrics
+credentials_cache_keys
+disk_usage
+gossip_info
+internode_inbound
+internode_outbound
+jmx_permissions_cache_keys
+local_read_latency
+local_scan_latency
+local_write_latency
+max_partition_size
+network_permissions_cache_keys
+pending_hints
+permissions_cache_keys
+queries
+repair_jobs
+repair_participates
+repair_sessions
+repair_validations
+roles_cache_keys
+rows_per_read
+settings
+sstable_tasks
+streaming
+system_properties
+thread_pools
+tombstones_per_read
+Dans le keyspace "system_virtual_schema":
+
+columns
+keyspaces
+tables
